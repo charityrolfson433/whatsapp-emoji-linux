@@ -1,4 +1,4 @@
-name: Build Emoji
+name: Build WhatsAppEmoji
 
 on:
   push:
@@ -29,7 +29,7 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install -r requirements.txt
 
-    - name: Build Emoji
+    - name: Build WhatsAppEmoji
       run: |
         make -j
         make install
@@ -37,6 +37,6 @@ jobs:
     - name: Upload .ttf file
       uses: actions/upload-artifact@v4
       with:
-        name: Emoji
-        path: build/Emoji.ttf
+        name: WhatsAppEmoji
+        path: build/WhatsAppEmoji.ttf
 
