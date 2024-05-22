@@ -15,7 +15,6 @@
 **WhatsAppEmoji will conflict with the following fonts:**
 - [Noto Emoji](https://github.com/googlefonts/noto-emoji)
 - [Symbola](https://dn-works.com/ufas/)
-- [JoyPixel](https://www.joypixels.com/)
 - [Twitter Color Emoji](https://github.com/eosrei/twemoji-color-font)
 - [Apple Color Emoji](https://github.com/samuelngs/apple-emoji-linux)
 
